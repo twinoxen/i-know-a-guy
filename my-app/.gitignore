@@ -115,3 +115,5 @@ dist
 .idea/
 .vscode/
 tools/dev
+
+results.json
