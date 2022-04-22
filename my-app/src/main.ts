@@ -4,8 +4,8 @@ import 'dotenv/config'
 import { twitter_client, USERNAME_REG, extract_users, clean_name } from './lib/twitter.js'
 import * as fs from 'fs/promises'
 
-const SEARCH_TERM = 'miamitechweek'
-const DESCRIPTION_TERMS = 'VC,investor,angel' // comma delimited list no spaces
+const SEARCH_TERM = 'miamitech' // TODO: make this a command line argument
+const DESCRIPTION_TERMS = 'VC,investor,angel' // comma delimited list no spaces // TODO: make this a command line argument
 
 export const search_tweets_for_people_who = async () => {
   try {
